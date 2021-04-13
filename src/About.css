@@ -1,0 +1,20 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.about > .about__info{
+   background-color: #787878;
+   min-height: 80vh;
+}
+
+.about > .about__info > h2, ul{
+    color: #fff;
+    margin-left: 200px;
+}
+
+.about > .about__info > ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

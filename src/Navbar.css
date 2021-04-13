@@ -1,0 +1,36 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #404040;
+}
+
+.navbar > h1{
+    color: lightgrey;
+}
+
+.navbar > h1:hover{
+    cursor: pointer;
+    color: tomato;
+}
+
+.navbar > .right__part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar > .right__part > h3{
+    margin: 5px 10px;
+    color: lightgrey !important;
+}
+
+.navbar > .right__part > a{
+    margin: 5px 10px;
+    color: lightgrey ;
+    text-decoration: none;
+}
+
+.navbar > .right__part > a > h3:hover{
+    color: tomato;
+}

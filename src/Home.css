@@ -1,0 +1,93 @@
+
+.home > img{
+    width: 100vw;
+    height:30em;
+}
+
+.home > .middle__part{
+    margin: 20px 50px;
+}
+
+.home > .middle__part > h1{
+    color: #09F;
+    font-weight: 600;
+    font-size: 250%;
+    text-transform: uppercase;
+    line-height: 100%;
+    letter-spacing: -0.1005em;
+    text-align: left;
+}
+
+.home > .middle__part > #special__paragraph{
+    color: #000;
+    line-height: 120%;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px 10px;
+}
+
+.home > .middle__part > p{
+    text-align: justify;
+    color: #000;
+    line-height: 120%;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.home > .middle__part > h3{
+    color: #09F;
+    font-weight: 400;
+    font-size: 150%;
+    letter-spacing: -1px;
+    line-height: 110%;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.home > .middle__part > ul{
+    list-style-type: none;
+}
+
+.home > .middle__part > ul > li{
+    margin: 10px;
+    /* flex: 1; */
+}
+
+.home > .middle__part > .ThumbLink{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    margin-left: auto;
+}
+
+.footer{
+    background-color: #383838;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer > p{
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+.contactus > .contact__details{
+   min-height: 80vh;
+   background-color: rgb(90, 98, 102);
+}
+
+.contactus > .contact__details > ul{
+    padding-top: 200px;
+    padding-left: 100px;
+    list-style-type: none;
+}
+
+.contactus > .contact__details > ul > li{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.contactus > .contact__details > ul > li > #font_awsome{
+    margin-right: 10px;
+}
